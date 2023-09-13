@@ -456,7 +456,7 @@ class Placard {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['disaster'],
       web: []
     };
     
@@ -472,19 +472,19 @@ class Placard {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['water'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['twenty'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['people'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['twenty'];
           break;
       }
     }
