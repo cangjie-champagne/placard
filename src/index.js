@@ -100,7 +100,7 @@ class Placard {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['mountain'],
+      wide: cangjie['earth'],
       web: []
     };
     
@@ -116,19 +116,19 @@ class Placard {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['predict'];
+          result.wide = cangjie['dagger-axe'];
           break;
 
         case 'function':
-          result.wide = cangjie['ten'];
+          result.wide = cangjie['heart'];
           break;
 
         case 'behavior':
-          result.wide = cangjie['twenty'];
+          result.wide = cangjie['field'];
           break;
 
         case 'result':
-          result.wide = cangjie['hand'];
+          result.wide = cangjie['corpse'];
           break;
       }
     }
@@ -140,7 +140,7 @@ class Placard {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['mountain'],
       web: []
     };
     
