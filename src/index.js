@@ -772,7 +772,7 @@ class Placard {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['heart'],
+      wide: cangjie['field'],
       web: []
     };
     
@@ -792,15 +792,15 @@ class Placard {
           break;
 
         case 'function':
-          result.wide = cangjie['middle'];
+          result.wide = cangjie['bamboo'];
           break;
 
         case 'behavior':
-          result.wide = cangjie['bow'];
+          result.wide = cangjie['ten'];
           break;
 
         case 'result':
-          result.wide = cangjie['corpse'];
+          result.wide = cangjie['female'];
           break;
       }
     }
